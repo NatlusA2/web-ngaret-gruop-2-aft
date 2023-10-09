@@ -1,0 +1,218 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 9%;
+    background: white;
+}
+
+.logo{
+    position: fixed;
+    left: 100;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.navlist{
+    margin-left: 200px;
+    display: flex;
+}
+
+/*link menu navbar*/
+.navlist a{
+    font-family: poppins;
+    color: black;
+    margin-left: 40px;
+    font-size: 15px;
+    transition: all, 0.55s ease;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid black;
+}
+
+#menu-icon{
+    color: black;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+/*tombol masuk sama regis navbar*/
+.tombol {
+    font-family: poppins;
+    font-size: 12px;
+    background-color: #D6A62E;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/* Efek hover untuk tombol */
+.tombol:hover {
+    background-color: #FFC300; /* Ubah warna latar belakang saat dihover */
+}
+
+.masuk{
+    font-family: poppins;
+    margin-left: 100px;
+}
+
+.masuk a{
+    color: #D6A62E;
+    font-family: poppins;
+    font-size: 15px;
+}
+
+/*tombol di hero */
+.coba {
+    font-family: poppins;
+    font-size: 12px;
+    background-color: #D6A62E;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/* Efek hover untuk tombol */
+.coba:hover {
+    background-color: #FFC300; /* Ubah warna latar belakang saat dihover */
+}
+
+.hero{  
+    height: 100%;
+    width: 100%;
+    max-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.text-hero{
+    padding: 0 20%;
+}
+
+.hero h1{
+    font-size: 52px;
+    color: #D6A62E;
+    padding: auto;
+    margin-bottom: 30px;
+    font-family: poppins;
+}
+
+.hero p{
+    font-family: poppins;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+/*bagian layanan*/
+.layanan{
+    background-color: E5F2FB;
+    height: 86vh;
+    padding: 2% 10% 10%;
+}
+
+.layanan-text{
+    margin: 30px 50px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+.layanan-text p:nth-child(1)
+{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/*cardbox menu layanan*/
+
+.box-container{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+  }
+  
+  .box-1, .box-2, .box-3
+  {
+    background-color: D6A62E;
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    margin-bottom: 100px;
+  }
+  
+  .box-1 span, .box-2 span, .box-3 span
+  {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.1 );
+    background-color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+  }
+  
+  .box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3)
+  {
+    font-family: poppins;
+    color: white;
+    width: 250px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .box-container h2{
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-family: poppins;
+  }
+
+  .box-container h3{
+    color: white;
+    font-family: poppins;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+
+  .layanan-judul{
+    color: green;
+    padding-bottom: 15px;
+  }
+  
